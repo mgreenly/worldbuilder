@@ -1,0 +1,13 @@
+# TypeProf 0.21.6
+
+# Classes
+module Wb
+  class Character
+    VERSION: String
+
+    attr_reader name: untyped
+    def initialize: (untyped name) -> void
+    def doctor?: -> String
+    def engineer?: -> String
+  end
+end
