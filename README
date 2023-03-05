@@ -1,3 +1,4 @@
-wb-character
+WorldBuilder
+============
 
-This class provides instances of characters and the ability to generate new ones.
+A gem with all the core logic for the world builder project
