@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require "wb/version"
-require "wb/error"
 
 require "wb/character/attributes"
 require "wb/character"

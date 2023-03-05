@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'lib/wb/version'
+require_relative "lib/wb/version"
 
 Gem::Specification.new do |spec|
   spec.name = "worldbuilder"

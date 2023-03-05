@@ -1,4 +1,5 @@
-# define the version independently so that the gemspec doesn't have to load the entire gem to get the version.
+# frozen_string_literal: true
+
 module Wb
-  VERSION = '0.1.0'
+  VERSION = "0.1.0"
 end
