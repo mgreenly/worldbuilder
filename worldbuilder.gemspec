@@ -1,8 +1,11 @@
 # frozen_string_literal: true
 
+require_relative 'lib/wb/version'
+
 Gem::Specification.new do |spec|
   spec.name = "worldbuilder"
-  spec.version = "0.1.0"
+  # spec.version = File.read(File.expand_path('../lib/wb/VERSION', __FILE__)).strip
+  spec.version = Wb::VERSION
   spec.authors = ["Michael Greenly"]
   spec.email = ["mgreenly@gmail.com"]
 

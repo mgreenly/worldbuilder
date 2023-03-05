@@ -1,9 +1,12 @@
 # frozen_string_literal: true
 
-require_relative "wb/dice"
-require_relative "wb/character/attributes"
-require_relative "wb/character"
+require "wb/version"
+require "wb/error"
+
+require "wb/character/attributes"
+require "wb/character"
+require "wb/dice"
 
 module Wb
-  VERSION = "0.1.0"
+  class Error < StandardError; end
 end
