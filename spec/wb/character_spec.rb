@@ -12,6 +12,6 @@ RSpec.describe Wb::Character do
     }
 
     subject = Wb::Character.new(**hash)
-    expect(subject.to_h).to eq(**hash)
+    expect(subject.to_h).to eq({ attributes: hash })
   end
 end
